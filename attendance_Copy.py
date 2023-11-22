@@ -6,8 +6,8 @@ import os
 from datetime import datetime
 
 teacher = input("Enter teacher name ")
-path = 'images'
-path2 = 'teacher images'
+path = 'images' #Needed Folder with Properly Named Images in it
+path2 = 'teacher images' #Needed Folder with Properly Named Images in it
 teacherName =[]
 teacher_images = []
 teacherPresent = []
