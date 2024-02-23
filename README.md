@@ -6,21 +6,33 @@ To generate the images of the people using the webcam. You can adjust the number
 ##Step-2 Organize the File format 
 While storing the images per person your folder structure shall be as such :
 | Dataset 
+
   | Train 
+  
     | Person 1 
+    
         | image.jpg
+        
         | image2.jpg
-        ...
+        
     | Person 2
+    
         | image.jpg
+        
         | image2.jpg
+        
   | Test
+  
     | Person 1 
+    
         | image.jpg
+        
         | image2.jpg
-        ...
+        
       | Person 2
+      
         | image.jpg
+        
         | image2.jpg
 
 ##Step-3 Run facerecognition.py
