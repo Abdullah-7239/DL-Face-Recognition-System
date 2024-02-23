@@ -56,10 +56,12 @@ while True:
                      
         name="None matching"
         
-        if(pred[0][0]>0.5):
-            name=people[0]
-        if(pred[0][1]>0.5):
-            name=people[1]
+        
+        for i in range(len(people)):
+            if (pred[0][i] > 0.5) :
+                name = people[i]
+                break
+        
         
         cv2.putText(frame,name, (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0,255,0), 2)
     else:
