@@ -5,35 +5,8 @@ To generate the images of the people using the webcam. You can adjust the number
 
 ##Step-2 Organize the File format 
 While storing the images per person your folder structure shall be as such :
-| Dataset 
-
-  | Train 
-  
-    | Person 1 
-    
-        | image.jpg
-        
-        | image2.jpg
-        
-    | Person 2
-    
-        | image.jpg
-        
-        | image2.jpg
-        
-  | Test
-  
-    | Person 1 
-    
-        | image.jpg
-        
-        | image2.jpg
-        
-      | Person 2
-      
-        | image.jpg
-        
-        | image2.jpg
+/Dataset/Train/Person1/image.jpg
+/Dataset/Test/Person1/image.jpg
 
 ##Step-3 Run facerecognition.py
 This will train the model on the images you just took from ipynb file. You can customuze the Deep Learning Model to your suiting.
